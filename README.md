@@ -14,7 +14,7 @@
 **Installing packages**<hr>
   <h3>Installing <b>pyautogui<b></h3>
     <li>pip install pyautogui</li> 
-</ul>
+</ul><br>
 How to Run the Program.<hr>
       Dont forget to add Name and Moblie Number in the test.txt file.
 <li> Clone the repository in your machine. 
