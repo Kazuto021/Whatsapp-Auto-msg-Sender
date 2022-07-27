@@ -1,0 +1,4 @@
+Enter the Name and Mobile Number of the users in the format of dictionary.(each user should be seprated by new line)
+Aka:
+ Name:Mobile Number
+ Name2:Mobile Number2
