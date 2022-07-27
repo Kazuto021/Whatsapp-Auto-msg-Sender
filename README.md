@@ -11,7 +11,7 @@
     <li> Re module of Py</li>
   </ol>
   
-**<h2>Installing packages</h2>**
+<h2>Installing packages</h2>
   <h3>Installing <b>pyautogui<b></h3>
     <li>pip install pyautogui</li> 
 </ul><br>
@@ -24,3 +24,4 @@
 <li> After the user has entered the text and how many times they want the messages to be repeated,he/she is alloted a specified time-limit to select the Whatsapp web Window.
 <li> The prg will verifiy if the user is ready to send the messages. Reply "yes" or "haan" and no need to worry if the the input is in Capital lettes as it will automatically will be converted into lower().
 <li> After all this, just sit back and woosh your work is done. 
+something
