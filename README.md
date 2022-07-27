@@ -8,9 +8,19 @@
   <ol><li>Python</li>
     <li>Time module of python</li>
     <li>pyautogui module of python</li>
+    <li> Re module of Py</li>
   </ol>
   
 **Installing packages**<hr>
   <ul>Installing <b>pyautogui<b><ul>
     <li>pip install pyautogui 
      
+How to Run the Program.<hr>
+      Dont forget to add 
+<li> Clone the repository in your machine. 
+<li> Run the code in IDE (For me, i used VScode)
+<li> Open Whatsapp-web in a new browser. <b> MAKE SURE THAT IT IS PRELOADED<b>
+  <li> The prg will only work when the user hasnt clicked anywhere on the chat on whatsapp web. The default screen that appears after the whatsapp web is loaded is the one stance that is recommended to start working on. 
+<li> After the user has entered the text and how many times they want the messages to be repeated,he/she is alloted a specified time-limit to select the Whatsapp web Window.
+<li> The prg will verifiy if the user is ready to send the messages. Reply "yes" or "haan" and no need to worry if the the input is in Capital lettes as it will automatically will be converted into lower().
+<li> After all this, just sit back and woosh your work is done. 
