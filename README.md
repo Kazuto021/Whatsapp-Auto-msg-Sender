@@ -12,7 +12,7 @@
   </ol>
   
 **Installing packages**<hr>
-  <ul><li><h3>Installing <b>pyautogui<b></h3></li>
+  <h3>Installing <b>pyautogui<b></h3>
     <li>pip install pyautogui</li> 
 </ul>
 How to Run the Program.<hr>
