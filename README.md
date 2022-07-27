@@ -11,11 +11,11 @@
     <li> Re module of Py</li>
   </ol>
   
-**<h2>Installing packages</h2>**<hr>
+**<h2>Installing packages</h2>**
   <h3>Installing <b>pyautogui<b></h3>
     <li>pip install pyautogui</li> 
 </ul><br>
-    <h2>How to Run the Program.</h2><hr>
+    <h2>How to Run the Program.</h2>
       Dont forget to add Name and Moblie Number in the test.txt file.
 <li> Clone the repository in your machine. 
 <li> Run the code in IDE (For me, i used VScode)
