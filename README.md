@@ -12,11 +12,11 @@
   </ol>
   
 **Installing packages**<hr>
-  <ul>Installing <b>pyautogui<b><ul>
-    <li>pip install pyautogui 
-     
+  <ul><li>Installing <b>pyautogui<b></li>
+    <li>pip install pyautogui</li> 
+</ul>
 How to Run the Program.<hr>
-      Dont forget to add 
+      Dont forget to add Name and Moblie Number in the test.txt file.
 <li> Clone the repository in your machine. 
 <li> Run the code in IDE (For me, i used VScode)
 <li> Open Whatsapp-web in a new browser. <b> MAKE SURE THAT IT IS PRELOADED<b>
