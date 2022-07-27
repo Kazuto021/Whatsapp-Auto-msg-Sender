@@ -4,6 +4,6 @@
 <li> It suppots Texts only. (for now)
 <li> Test.txt should include all the numbers that the user wants to 
   
-**Installing packages**<hr><br>
-  <ul>Installing pyautogui<ul>
+**Installing packages**<hr>
+  <ul>Installing <b>pyautogui<b><ul>
     <li>pip install pyautogui 
