@@ -4,18 +4,18 @@ import re
 
 #--------------------------- Searching through the chats using PhoneNumber as primary key------------------------------------------------
 def file_split():
-    f =open("D:\Intern Web dev\Seldom India\Python\PyAutoGUI\\test.txt",'r') 
+    f =open("D:\project\Whatsapp-Auto-msg-Sender\\test.txt",'r') 
     dict={}
     for i in f:
         # li=i.split(":|")
         li=re.split(":|\n",i)
         dict[li[0]]=li[1]
-
+    f.close()
     return dict
 
 def auto_send(text,times):
     for i in range(times):
-        pag.typewrite(text)
+        pag.typewrite(text,interval=.100)
         pag.press("enter")
         
 def search_msg(text,times):
@@ -24,8 +24,8 @@ def search_msg(text,times):
     ready=pag.prompt("are you ready?")
     if ready.lower()=="yes" or "haan":
         for i in dict:
-            pag.press("tab",4)
-            pag.typewrite(dict[i],interval=.100)
+            pag.press("tab",8)
+            pag.typewrite(dict[i],interval=.01)
             pag.press("Enter")
             auto_send(text,times)
             pag.press("tab")
@@ -35,3 +35,4 @@ li= str(__inp__).split(",")
 text=li[0]
 times = int(li[1])
 search_msg(text,times)
+
