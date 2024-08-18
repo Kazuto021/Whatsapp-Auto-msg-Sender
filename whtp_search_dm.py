@@ -4,7 +4,7 @@ import re
 
 #--------------------------- Searching through the chats using PhoneNumber as primary key------------------------------------------------
 def file_split():
-    f =open("D:\project\Whatsapp-Auto-msg-Sender\\test.txt",'r') 
+    f =open("D:\\project\\Whatsapp-Auto-msg-Sender\\test.txt",'r') 
     dict={}
     for i in f:
         # li=i.split(":|")
@@ -15,8 +15,9 @@ def file_split():
 
 def auto_send(text,times):
     for i in range(times):
-        pag.typewrite(text,interval=.100)
-        pag.press("enter")
+        pag.typewrite("> ",interval=0.4)
+        pag.typewrite(text,interval=1)
+        pag.press("Enter")
         
 def search_msg(text,times):
     dict=file_split()
@@ -24,11 +25,13 @@ def search_msg(text,times):
     ready=pag.prompt("are you ready?")
     if ready.lower()=="yes" or "haan":
         for i in dict:
-            pag.press("tab",8)
-            pag.typewrite(dict[i],interval=.01)
+            # pag.press("tab",8)
+            pag.hotkey("ctrl","f")
+            pag.typewrite(dict[i],interval=0.2)
+            pag.press("tab")
             pag.press("Enter")
             auto_send(text,times)
-            pag.press("tab")
+            # pag.press("tab")
         
 __inp__ = pag.prompt("Enter the Text and times to repeat respectively.(Pls use \',\' to separate each field.)\n")
 li= str(__inp__).split(",")
